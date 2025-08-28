@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import SobreNos from "./components/SobreNos";
 import PorQueInvestir from "./components/PorQueInvestir";
+import Produtos from "./components/Produtos";
 
 function App() {
   return (
@@ -12,9 +13,7 @@ function App() {
 
       <PorQueInvestir />
 
-      <section id="produtos" style={{ height: "100vh", padding: "40px" }}>
-        <h1>Produtos</h1>
-      </section>
+      <Produtos />
 
       <section id="orcamento" style={{ height: "100vh", padding: "40px" }}>
         <h1>Orçamento</h1>
