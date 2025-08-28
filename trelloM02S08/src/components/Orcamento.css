@@ -1,0 +1,137 @@
+
+.fullscreen-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5fafa;
+  padding: 40px 0;
+}
+
+.orcamento {
+  max-width: 800px;
+  width: 90%;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(248, 247, 247, 0.1);
+}
+
+.orcamento h2 {
+  text-align: center;
+  color: #004d36;
+  margin-bottom: 15px;
+  font-size: 2.2rem;
+}
+
+.orcamento-intro {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.orcamento-form {
+  margin-bottom: 40px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #004d36;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007254;
+  box-shadow: 0 0 0 2px rgba(246, 247, 246, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-btn {
+  width: 100%;
+  background: #007254;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background: #004d36;
+}
+
+.orcamento-info {
+  background: #e8f5f1;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 5px solid #007254;
+}
+
+.orcamento-info h3 {
+  color: #004d36;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.orcamento-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.orcamento-info li {
+  padding: 8px 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .orcamento {
+    padding: 30px 20px;
+  }
+  
+  .orcamento h2 {
+    font-size: 1.8rem;
+  }
+}
