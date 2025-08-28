@@ -1,0 +1,85 @@
+.fullscreen-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5fafa;
+}
+
+.porque-investir {
+  max-width: 900px;
+  width: 90%;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.porque-investir h2 {
+  text-align: center;
+  color: #004d36;
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+}
+
+.porque-investir-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.beneficio-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 25px;
+  background-color: #f8fbfa;
+  border-radius: 10px;
+  border-left: 5px solid #007254;
+  transition: all 0.3s ease;
+}
+
+.beneficio-item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 5px 15px rgba(0, 115, 84, 0.1);
+}
+
+.beneficio-icon {
+  font-size: 2.5rem;
+  min-width: 60px;
+  text-align: center;
+}
+
+.beneficio-texto h3 {
+  color: #007254;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.beneficio-texto p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .beneficio-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .beneficio-icon {
+    margin: 0 auto;
+  }
+  
+  .porque-investir {
+    padding: 30px 20px;
+  }
+  
+  .porque-investir h2 {
+    font-size: 1.8rem;
+  }
+}

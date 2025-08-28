@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import SobreNos from "./components/SobreNos";
+import PorQueInvestir from "./components/PorQueInvestir";
 
 function App() {
   return (
@@ -9,9 +10,7 @@ function App() {
       
       <SobreNos />
 
-      <section id="investir" style={{ height: "100vh", padding: "40px" }}>
-        <h1>Por que investir?</h1>
-      </section>
+      <PorQueInvestir />
 
       <section id="produtos" style={{ height: "100vh", padding: "40px" }}>
         <h1>Produtos</h1>
